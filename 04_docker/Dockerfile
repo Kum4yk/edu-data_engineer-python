@@ -1,4 +1,4 @@
-FROM postgres:14
+FROM postgres:13
 ENV POSTGRES_USER=43342120 \
     POSTGRES_PASSWORD=43342120
 VOLUME [ "/var/lib/postgresql/DE_course", "/var/lib/postgresql/homework" ]
